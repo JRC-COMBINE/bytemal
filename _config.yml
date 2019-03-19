@@ -6,7 +6,7 @@ safe: false
 # Build Settings
 markdown: kramdown
 permalink: pretty
-exclude: ['/automation/', 'README.md', 'LICENSE.txt', 'CNAME']
+exclude: ['/automation/', 'README.md', 'LICENSE.txt', 'CNAME', 'vendor']
 
 
 # Site Settings
@@ -84,8 +84,8 @@ latestNewsTitle: "Latest news"
 
 # Rockstar Speakers Block
 rockstarSpeakersImage: "rockstar-speakers.jpg"
-rockstarSpeakersCount: 4
-rockstarSpeakersTitle: "Rockstar speakers"
+rockstarSpeakersCount: 3
+rockstarSpeakersTitle: "Meet our Speakers"
 rockstarSpeakersButtonText: "See all speakers"
 
 # Location Block
