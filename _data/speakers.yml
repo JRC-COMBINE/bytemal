@@ -1,9 +1,22 @@
-- 
+-
+  id: 2
+  name: "Dr.rer.nat. Clemens"
+  surname: "Kreutz"
+  company: "Center for Biological Systems Analysis, University of Freiburg"
+  thumbnailUrl: kreutz.jpg
+  rockstar: true
+-
   id: 3
-  name: "Rudi"
+  name: "Dr.-Ing. Jan"
+  surname: "Hasenauer"
+  company: "Institute of Computational Biology, Helmholz Zentrum München"
+  thumbnailUrl: hasenauer.jpg
+  rockstar: true
+- 
+  id: 1
+  name: "Prof. Rudi"
   surname: "Balling"
   company: "Luxembourg Centre for Systems Biomedicine"
-  title: "Geneticist"
-  bio: "Rudi Balling is a German geneticist. He is director of the Luxembourg Centre for Systems Biomedicine at the University of Luxembourg. "
   thumbnailUrl: balling.jpg
   rockstar: true
+-
