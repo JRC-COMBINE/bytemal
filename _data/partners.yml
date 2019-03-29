@@ -1,4 +1,0 @@
-- 
-  group: "Sponsors"
-  elements: 
-    - {name: "JRC Combine ", description: "Joint Research Center for Computational Biomedicine - We aim to close the gap between academic and industrial research.", link: "http://www.combine.rwth-aachen.de/", imageUrl: "jrc.png"}
