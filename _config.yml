@@ -13,11 +13,11 @@ exclude: ['/automation/', 'README.md', 'LICENSE.txt', 'CNAME', 'vendor']
 title: "byteMAL Conference 2019"
 email: "byteMALevents@gmail.com"
 description: "Bioinformatics for Young inTernational researchers Expo"
-baseurl: ""
+baseurl: /
 url: "https://bytemal.org"
 permalink: "/blog/:title"
 googleAnalyticsTrackingId: ""
-googleAnalyticsSiteUrl: "jrc-combine.github.io"
+googleAnalyticsSiteUrl: "bytemal.org"
 siteVerification: ""
 
 # Organizer Info
