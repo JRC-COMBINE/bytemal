@@ -1,11 +1,10 @@
 - 
   group: "Main organizer"
   elements: 
-     - {name: "Google", description: "Google", link: "https://www.google.com.ua/intl/en/about/", imageUrl: "gdg-kyiv.svg"}
-    #- {name: "JRC Combine ", description: "Joint Research Center for Computational Biomedicine - We aim to close the gap between academic and industrial research.", link: "https://www.combine.rwth-aachen.de/", imageUrl: "jrc.svg"}
+    - {name: "JRC Combine ", description: "Joint Research Center for Computational Biomedicine - We aim to close the gap between academic and industrial research.", link: "http://www.combine.rwth-aachen.de/", imageUrl: "jrc.png"}
 - 
   group: "Co-organizers"
   elements: 
-    #- {name: "GDG Lviv", description: "GDG Kyiv - Open and volunteer geek community", link: "http://kyiv.gdg.org.ua", imageUrl: "gdg-kyiv.svg"}
-    #- {name: "GDG Cherkassy", description: "GDG Cherkassy - Open and volunteer geek community", link: "http://cherkassy.gdg.org.ua", imageUrl: "gdg-cherkasy.svg"}
-    #- {name: "GDG Dnipropetrovsk", description: "GDG Dnipropetrovsk - Open and volunteer geek community", link: "http://dnipro.gdg.org.ua", imageUrl: "gdg-dnipropetrovsk.svg"}
+    - {name: "Bioinformatics Department - BiGCaT, Maastricht University", description: "", link: "https://www.bigcat.unimaas.nl/", imageUrl: "bigcat.jpg"}
+    - {name: "Maastricht Centre for Systems Biology - MaCSBio, Maastricht University", description: "", link: "https://www.maastrichtuniversity.nl/research/maastricht-centre-systems-biology", imageUrl: "maastricht.svg"}
+    - {name: "Bioinformatics and Systems Biology Unit - BioSys, Université de Liège.", description: "", link: "http://www.biosys.ulg.ac.be/BioSys_Site/", imageUrl: "biosys.jpg"}
