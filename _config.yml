@@ -74,22 +74,6 @@ rockstarSpeakersCount: 3
 rockstarSpeakersTitle: "Meet our Speakers"
 rockstarSpeakersButtonText: "See all speakers"
 
-# Location Block
-locationBlockTitle: "Location"
-eventLocationName: "RWTH Super C"
-#eventLocationLink: "http://cabinet.kinopalace.lviv.ua/showtimes/"
-eventStreetAddress: "Templergrabeen 57"
-eventAddressLocality: "Aachen"
-eventAddressLocalityRegion: "Aachen"
-eventPostalCode: "52062"
-eventAddressCountry: "Germany"
-eventStartTime: "2019-09-24T10:00"
-eventDoorTime: "09:00"
-eventEndTime: "2019-09-24T20:00"
-eventPlaceCoordinates: "50.7782469, 6.0764467"
-mapCenterCoordinates: "50.7782469, 6.0764467"
-mapMobileCenterCoordinates: "50.7782469, 6.0764467"
-
 # Venue Block
 venueBlockTitle: "Venue"
 venueBigImage: "venue_0.jpg"
