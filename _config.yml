@@ -80,8 +80,8 @@ venueBigImage: "venue_0.jpg"
 venueSmallImage1: "venue_1.jpg"
 venueSmallImage2: "venue_2.jpg"
 venueSmallImage3: "venue_3.jpg"
-venueTitle: "Seminarraum Uniklinikum Aachen"
-venueFeatures: ["Right in the heart of Aachen.", "Sufficient place for up to 100 people.", "Modern and attractive."]
+venueTitle: "Großer Seminarraum Uniklinikum Aachen"
+venueFeatures: ["Pauwelsstraße 30, 52074 Aachen, Germany"]
 
 # Tweets Feed Block
 tweetsFeedImage: "twitter-feed.jpg"
