@@ -53,9 +53,9 @@ heroButtons:
 # About Block
 aboutTitle: "About byteMAL"
 aboutBlock:
- - {title: "Conference", image: "conference.jpg", text: "ByteMAL (Bioinformatics for Young inTernational researchers) is a conference for young researchers in the fields of bioinformatics and computational biology and aims to provide a new networking platform for knowledge and expertise exchange across borders." }
- - {title: "Poster Session", image: "workshop.jpg", text: "Hands-On experience, close interaction and hours of discussion. Come and get to know the research community!" }
- - {title: "Presentations", image: "hackathon.jpg", text: "Join us for various talks of highly valued experts in the domain. Presenting tomorrows state of the art!" }
+ - {title: "Conference", image: "conference.jpg", text: "ByteMAL (Bioinformatics for Young inTernational researchers) is a conference for young researchers in the fields of bioinformatics and computational biology. It aims to provide a new networking platform for knowledge and expertise exchange across borders." }
+ - {title: "Presentations", image: "hackathon.jpg", text: "Join us for three talks of experts in the domain, presenting tomorrows state of the art!" }
+ - {title: "Poster Session", image: "workshop.jpg", text: "Networking, close interaction and hours of discussion. Come and get to know the research community!" }
 
 # Statistic Block
 statisticBlockImage: "statistic.jpg"
@@ -63,7 +63,7 @@ statisticBlock:
  - {count: "100", specialCharacter: "+", info: "attendees", detail: "from everywhere"}
  - {count: "6", specialCharacter: "+", info: "hours", detail: "of Bioinformatics"}
  - {count: "3", specialCharacter: "+", info: "speakers", detail: "from country and beyond"}
- - {count: "15", specialCharacter: "", info: "posters", detail: "presenting current work"}
+ - {count: "15", specialCharacter: "+", info: "posters", detail: "presenting current work"}
 
 # Latest News Block
 latestNewsTitle: "Latest news"
