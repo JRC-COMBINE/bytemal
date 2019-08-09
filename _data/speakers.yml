@@ -5,6 +5,7 @@
   company: "Center for Biological Systems Analysis, University of Freiburg"
   thumbnailUrl: kreutz.jpg
   rockstar: true
+  url: "https://www.frias.uni-freiburg.de/de/personen/wissenschaftliche-mitarbeiterinnen/archiv-wiss-mitarbeiter/kreutz"
 -
   id: 3
   name: "Dr.-Ing. Jan"
@@ -12,6 +13,7 @@
   company: "Institute of Computational Biology, Helmholz Zentrum München"
   thumbnailUrl: hasenauer.jpg
   rockstar: true
+  url: "https://www.helmholtz-muenchen.de/icb/institute/staff/staff/ma/2519/Dr.-Ing.-Hasenauer/index.html"
 - 
   id: 1
   name: "Prof. Rudi"
@@ -19,4 +21,5 @@
   company: "Luxembourg Centre for Systems Biomedicine"
   thumbnailUrl: balling.jpg
   rockstar: true
+  url: "https://wwwen.uni.lu/lcsb/people/rudi_balling"
 -
