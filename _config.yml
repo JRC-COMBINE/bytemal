@@ -39,6 +39,13 @@ socialImageSrcFacebook: "/img/seo/sharing-facebook.png"
 c4pUrl: "https://bit.ly/dfua-c4p"
 c4sponsorsUrl: "/assets/GDG_DevFest_Partnership.pdf"
 
+# Navigation
+navigationLinks:
+ - {permalink: "/", text: "Home"}
+ - {permalink: "/blog/", text: "Blog"}
+ #- {permalink: "/schedule/", text: "Schedule"}
+ - {permalink: "/speakers/", text: "Speakers"}
+ - {permalink: "/team/", text: "Team"}
 
 # Hero Block
 heroImage: "dna.jpg"
@@ -109,6 +116,12 @@ footerBlocks:
   title: "Contacts"
   links:
    - {link: "mailto:byteMALevents@gmail.com", text: "byteMALevents@gmail.com"}
+ -
+  title: "Previous Bytemals"
+  links:
+    - {link: "https://projects.bigcat.unimaas.nl/bytemal/preview-events/maastricht/", text: "Bytemal 2016"}
+    - {link: "https://projects.bigcat.unimaas.nl/bytemal/2017-2/", text: "Bytemal 2017"}
+    - {link: "/", text: "Bytemal 2018 (TBD)"}
  -
   title: "FAQ"
   links:

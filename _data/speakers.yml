@@ -6,14 +6,22 @@
   thumbnailUrl: kreutz.jpg
   rockstar: true
   url: "https://www.frias.uni-freiburg.de/de/personen/wissenschaftliche-mitarbeiterinnen/archiv-wiss-mitarbeiter/kreutz"
+  bio: "Rapid technological progress in biomedical sciences is continuously raising questions regarding efficient and valid statistical analyses and interpretation of experimental data. Although a multitude of computational approaches have been developed, the analysis and interpretation of data is still a bottleneck. One reason is that the performance of computational methods is often context-specific and application limits are widely unknown. 
+We established a comprehensive statistical methodology for mathematical modelling in the systems biology. Moreover, we are developing computational and statistical approaches for analyzing high-throughput data. In this talk, I will discuss the profile likelihood as a general concept for uncertainty analyses. Moreover, a new modelling approach will be presented which is tailored to describing the dynamics of individual cellular compounds and is applicable to high-throughput data. In addition, new concepts for benchmarking of computational algorithms will be presented. These concepts are discussed based on two examples: methods for imputation of missing values in proteomics, and identification of differentially methylated regions (DMRs) from sequencing data.
+"
 -
   id: 3
   name: "Dr.-Ing. Jan"
   surname: "Hasenauer"
-  company: "Institute of Computational Biology, Helmholz Zentrum München"
+  company: "Institute of Computational Biology, Helmholz Zentrum München and Life & Medical Sciences Institute, University Bonn"
   thumbnailUrl: hasenauer.jpg
   rockstar: true
   url: "https://www.helmholtz-muenchen.de/icb/institute/staff/staff/ma/2519/Dr.-Ing.-Hasenauer/index.html"
+  bio: "On the mathematical modelling and high-throughput bulk and single-cell data
+
+Experimental approaches such as single-cell and bulk sequencing, mass spectrometry and imaging provide nowadays an immense amount of quantitative data. This renders data analysis, including integration and interpretation, more relevant than ever before. However, data analysis is often computationally intensive and many approaches are not scalable.
+
+In this talk, I will present some of our recent work on model-based data analysis. I will focus on: (1) methods for the analysis of multi-omics data from cancer cell lines using large-scale cancer pathway models; and (2) approaches for the interpretation of single-cell imaging and sequencing data using population models. In these application areas, I will outline (reusable) methodological advancement which significantly improved the scalability and applicability of approaches."
 - 
   id: 1
   name: "Prof. Rudi"
@@ -22,4 +30,4 @@
   thumbnailUrl: balling.jpg
   rockstar: true
   url: "https://wwwen.uni.lu/lcsb/people/rudi_balling"
--
+  bio: ""
