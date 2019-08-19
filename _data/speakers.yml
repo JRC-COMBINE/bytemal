@@ -11,7 +11,7 @@ We established a comprehensive statistical methodology for mathematical modellin
 "
 -
   id: 3
-  name: "Dr.-Ing. Jan"
+  name: "Prof. Dr. Jan"
   surname: "Hasenauer"
   company: "Institute of Computational Biology, Helmholz Zentrum München and Life & Medical Sciences Institute, University Bonn"
   thumbnailUrl: hasenauer.jpg
@@ -24,7 +24,7 @@ Experimental approaches such as single-cell and bulk sequencing, mass spectromet
 In this talk, I will present some of our recent work on model-based data analysis. I will focus on: (1) methods for the analysis of multi-omics data from cancer cell lines using large-scale cancer pathway models; and (2) approaches for the interpretation of single-cell imaging and sequencing data using population models. In these application areas, I will outline (reusable) methodological advancement which significantly improved the scalability and applicability of approaches."
 - 
   id: 1
-  name: "Prof. Rudi"
+  name: "Prof. Dr. Rudi"
   surname: "Balling"
   company: "Luxembourg Centre for Systems Biomedicine"
   thumbnailUrl: balling.jpg
