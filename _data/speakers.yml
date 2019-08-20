@@ -31,3 +31,12 @@ In this talk, I will present some of our recent work on model-based data analysi
   rockstar: true
   url: "https://wwwen.uni.lu/lcsb/people/rudi_balling"
   bio: ""
+- 
+  id: 4
+  name: "Prof. Dr. Andreas"
+  surname: "Schuppert"
+  company: "Joint Research Center for Computational Biomedicine"
+  thumbnailUrl: schuppert.jpg
+  rockstar: false
+  url: "https://jrc-combine.de"
+  bio: "The head of the Joint Research Center for Computational Biomedicine RWTH Aachen (JRC Combine)"
