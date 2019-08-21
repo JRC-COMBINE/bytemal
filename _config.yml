@@ -35,10 +35,6 @@ socialImageSrcGooglePlus: "/img/seo/sharing-google-plus.png"
 socialImageSrcTwitter: "/img/seo/sharing-twitter.png"
 socialImageSrcFacebook: "/img/seo/sharing-facebook.png"
 
-# Documents
-c4pUrl: "https://bit.ly/dfua-c4p"
-c4sponsorsUrl: "/assets/GDG_DevFest_Partnership.pdf"
-
 # Navigation
 navigationLinks:
  - {permalink: "/", text: "Home"}
@@ -129,7 +125,16 @@ footerBlocks:
 
 # Team Block
 teamBlockTitle: "About us"
-aboutUs: ""
+aboutUs: >
+  Back in 2016 PhD students from the fields of systems biomedicine and bioinformatics from the EUREGIO region decided to establish a collaborative platform among students from Aachen, Germany; Maastricht, Netherlands and Liège, Belgium called ByteMAL - Bioinformatics for Young inTernational researchers Expo in Maastricht, Aachen and Liège.
+  <br />
+  The platform is aimed to exchange knowledge and discuss research ideas and challenges with people of similar backgrounds. A series of byteMAL conferences was set up as the most suitable option to achieve this goal.
+  <br />
+  byteMAL is a conference series aimed especially at young researchers in the fields of bioinformatics, computational biology and systems biomedicine. Every year it takes place in one of the three locations – Aachen, Maastricht or Liège. This year it is going to take place in RWTH Aachen University Hospital, Aachen, Germany.  
+  <br />
+  Each conference is opened by three keynote presentations from experienced researchers with a goal to provide an overview of the latest advancements in their respective fields. Afterwards participants will get the chance to network by presenting their own current work through posters and pitch presentations.
+  <br />
+  We will be happy to have you on board for the ByteMAL 2019!
 
 # Logistics Find Way Block
 findWayTitle: "Find your way here"
