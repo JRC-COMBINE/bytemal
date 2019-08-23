@@ -1,6 +1,6 @@
 -
   id: 2
-  name: "Dr.rer.nat. Clemens"
+  name: "Dr. rer. nat. Clemens"
   surname: "Kreutz"
   company: "Center for Biological Systems Analysis, University of Freiburg"
   thumbnailUrl: kreutz.jpg
@@ -27,7 +27,7 @@
   bio: ""
 - 
   id: 4
-  name: "Prof. Dr. Andreas"
+  name: "Prof. Dr. rer. nat. Andreas"
   surname: "Schuppert"
   company: "Joint Research Center for Computational Biomedicine"
   thumbnailUrl: schuppert.jpg
@@ -36,9 +36,9 @@
   bio: ""
 - 
   id: 5
-  name: "Prof. Stefan"
+  name: "Prof. Dr. rer. nat. Stefan"
   surname: "Uhlig"
-  company: "Medical faculty of the RWTH Aachen"
+  company: "Dean of the Medical faculty of RWTH Aachen"
   thumbnailUrl: uhlig.jpeg
   rockstar: false
   url: ""
