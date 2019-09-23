@@ -30,7 +30,8 @@
 -
   id: 006
   title: "Keynote Presentation"
-  description: ""
+  description: "'The pathogenesis of chronic diseases: Common mechanisms at play? Critical transitions involved?'
+  Many of the chronic, age related diseases such as cancer, metabolic or neurodegenerative diseases share certain hallmarks. These include evidence for mitochondrial dysfunction, inflammatory signatures or disturbances in proteostasis or secretory function. Chronic diseases can be looked at as perturbations of complex adaptive systems and are often characterized by critical transitions or catastrophic shifts. They have been studied intensively in theoretical and applied physics, ecology and economics. If we could understand the underlying mechanisms and the dynamics of critical transitions involved in the development of diseases, we would be better equipped to predict and eventual prevent them from arising.We have obtained evidence for a key role a familial Parkinson’s disease gene, as a regulator of the enzyme pyruvate dehydrogenase (PDH), influencing the ability of a cell to switch between glycolysis and oxidative phosphorylation. Based on the central nature of this switch in cellular and energy metabolism, I will present a hypothesis and potential explanation for the concomitant increase in the prevalence of different chronic diseases and their comorbidities, including neuropsychiatric diseases. Maybe we can discuss together how we could identify and characterize critical transitions in these disease process."
   subtype: keynote
   speakers: [1]
 -
