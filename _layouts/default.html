@@ -1,123 +1,146 @@
----
-layout: compress
----
-
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <meta
+      name="google-site-verification"
+      content="9Hs3oD5gKJ04U6XrveiffdUO9OS979JZor8YDrzjHU8"
+    />
+    {% seo %}
 
-{% include head.html %}
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+      integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
+      crossorigin="anonymous"
+    />
+    <!-- link to main stylesheet -->
 
-<body>
-    <div id="preloader" class="preloader">
-        <div class="loader-gplus"></div>
-    </div>
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="{{site.baseurl}}/css/main.css"
+    />
 
-    <div id="st-container" class="st-container disable-scrolling">
-        <div class="st-pusher">
-            <div class="st-content">
+    <script
+      src="https://kit.fontawesome.com/598e96bcc5.js"
+      crossorigin="anonymous"
+    ></script>
 
-                {{ content }}
+    <link rel="shortcut icon" type="image/png" href="{{
+    "/images/byteMAL_icon.png" | absolute_url }}">
+    <style media="all"></style>
+  </head>
 
-                {% include footer.html %}
+  <body>
+    {% include octocat_corner.html %}
+    <div class="page-header pt-4 pb-5">
+      <div class="container-lg">
+        <div style="text-align: center">
+          <a href="{{site.baseurl}}/">
+            <img
+              src="{{site.baseurl}}/images/byteMal_2026_logo_with_date.svg"
+              alt="ByteMAL_2026_logo"
+              class="center"
+              style="
+                width: 750px;
+                max-width: 100%;
+                height: auto;
+                margin-top: 40px;
+                margin-bottom: 20px;
+              "
+            />
+          </a>
+          <p></p>
+          <ul class="nav justify-content-center">
+            <li class="nav-item px-1 px-md-3">
+              <b
+                ><a
+                  href="{{site.baseurl}}/"
+                  class="{% if page.url == '/' or page.url == '/index.html' %}nav-active{% else %}nav-general{% endif %}"
+                  >Home</a
+                ></b
+              >
+            </li>
 
-            </div>
+            <li class="nav-item px-1 px-md-3">
+              <b
+                ><a
+                  href="{{site.baseurl}}/about"
+                  class="{% if page.url == '/about' %}nav-active{% else %}nav-general{% endif %}"
+                  >About</a
+                ></b
+              >
+            </li>
+            <li class="nav-item px-1 px-md-3">
+              <b
+                ><a
+                  href="{{site.baseurl}}/program"
+                  class="{% if page.url == '/program' %}nav-active{% else %}nav-general{% endif %}"
+                  >Program</a
+                ></b
+              >
+            </li>
+            <li class="nav-item px-1 px-md-3">
+              <b
+                ><a
+                  href="{{site.baseurl}}/speakers"
+                  class="{% if page.url == '/speakers' %}nav-active{% else %}nav-general{% endif %}"
+                  >Speakers</a
+                ></b
+              >
+            </li>
+            <li class="nav-item px-1 px-md-3">
+              <b>
+                <a
+                  href="{{site.baseurl}}/venue"
+                  class="{% if page.url == '/venue' %}nav-active{% else %}nav-general{% endif %}"
+                  >Venue</a
+                >
+              </b>
+            </li>
+            <li class="nav-item px-1 px-md-3">
+              <b
+                ><a
+                  href="{{site.baseurl}}/register"
+                  class="{% if page.url == '/register' %}nav-active{% else %}nav-general{% endif %}"
+                  >Register</a
+                ></b
+              >
+            </li>
+          </ul>
         </div>
+        <br />
+        <br />
+
+        <div class="container px-3">{{ content }}</div>
+      </div>
     </div>
+    <!-- /.container -->
 
-    {% if page.modal != null %}
-    {% include speakers-modals.html %}
-    {% endif %}
+    {% include footer.html %}
 
-    {% if page.permalink == '/schedule/' %}
-    {% include sessions-modals.html %}
-    {% endif %}
-
-    {% include analytics.html %}
-
-    <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
-    <script>
-        window.jQuery || document.write('<script src="{{ "/js/jquery-2.1.1.min.js" | prepend: site.baseurl }}><\/script>')
-    </script>
-    <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
-    <script>
-        if (typeof ($.fn.modal) === 'undefined') {
-            document.write('<script src="{{ "/js/bootstrap.min.js" | prepend: site.baseurl }}><\/script>')
-        }
-    </script>
-    <script src="{{ "/js/default.js" | prepend: site.baseurl }}"></script>
-    <script>
-        Waves.displayEffect();
-        {% if page.permalink == '/' %}
-        var twitterFeedUrl = '{{ site.twitterFeed }}';
-        $(document).ready(function () {
-            $(function () {
-                if ($(window).width() > 767) {
-                    $("#typeout-text").typed({
-                        strings: [{{ site.typeoutTextValues }}],
-                        typeSpeed: 150,
-                        backDelay: 900,
-                        loop: false
-                        });
-        }
-                });
-        var rockstarSpeakers = [
-            {% for speaker in site.data.speakers %}
-        {% if speaker.rockstar %}
-        { name: "{{ speaker.name }} {{ speaker.surname }}", company: "{{ speaker.company }}", image: "{{ site.baseurl | append: '/img/people/' | append: speaker.thumbnailUrl }}", url: "{{ speaker.url }}" } {% if forloop.index != forloop.length %}, {% endif %}
-        {% endif %}
-        {% endfor %}
-                ];
-        rockstarSpeakers.sort(function () { return 0.5 - Math.random() });
-        if (rockstarSpeakers.length > 0) {
-            var animationDelay = 1500,
-                count = Math.min({{ site.rockstarSpeakersCount }}, rockstarSpeakers.length),
-        colWidth = 12 / count;
-        for (i = 0; i < count; i++) {
-            var clearfix = '<div class="clearfix visible-xs"></div>';
-            if ((i) % 2 != 0) {
-                clearfix = ""
-            }
-            $('#rockstar-speaker-title').after('<div class="col-md-' + colWidth + ' col-xs-6 rockstar-speakers-item animated hiding" data-animation="fadeInUp" data-delay="' + animationDelay + '"><div class="rockstar-speaker"><div class="flow-img img-circle rockstar-speaker-img" style="background-image: url(' + rockstarSpeakers[i].image + ')"></div><a href="' + rockstarSpeakers[i].url + '"><div class="name">' + rockstarSpeakers[i].name + '</div></a><div class="sub">' + rockstarSpeakers[i].company + '</div></div></div>' + clearfix);
-            animationDelay -= 500;
-        }
-                }
-            });
-        {% elsif page.permalink == '/logistics/' %}
-        var googleMaps = 'logistics',
-            eventPlace = new google.maps.LatLng({{ site.eventPlaceCoordinates }}),
-        centerMap = new google.maps.LatLng({{ site.logisticsMapCenterCoordinates }}),
-            mobileCenterMap = new google.maps.LatLng({{ site.logisticsMapMobileCenterCoordinates }}),
-            icon = '{{ site.baseurl }}/img/other/map-marker.svg';
-        {% elsif page.permalink == '/hackathon/' %}
-        if ($(window).width() > 767) {
-            var googleMaps = 'hackathon',
-                eventPlace = new google.maps.LatLng({{ site.hackathonPlaceCoordinates }}),
-        centerMap = new google.maps.LatLng({{ site.hackathonMapCenterCoordinates }}),
-            mobileCenterMap = new google.maps.LatLng({{ site.hackathonMapMobileCenterCoordinates }}),
-            icon = '{{ site.baseurl }}/img/other/map-marker.svg';
-            } else {
-            var staticGoogleMaps = true,
-                eventPlaceCoordinates = '{{ site.hackathonPlaceCoordinates | replace:' ','' }}',
-                    centerMapCoordinates = '{{ site.hackathonMapCenterCoordinates | replace:' ','' }}',
-                        mobileCenterMapCoordinates = '{{ site.hackathonMapMobileCenterCoordinates | replace:' ','' }}',
-                            icon = '{{ site.baseurl | prepend: site.url }}/img/other/map-marker.png';
-        }
-
-        {% endif %} 
-    </script>
-    <script src="{{ "/js/scripts.min.js" | prepend: site.baseurl }}"></script>
-    {% if page.permalink == '/schedule/' %}
-    <script type="text/javascript">
-        $(document).ready(function () {
-            var navHeight = $('#top-header').height();
-            var headerHeight = $('.track-header').first().height();
-            $('.stick-header').stick_in_parent({ sticky_class: 'sticky', offset_top: navHeight });
-            $('.stick-label').stick_in_parent({ offset_top: navHeight + headerHeight });
-        });
-    </script>
-    {% endif %}
-
-    {% include schema-event.html %}
-</body>
-
+    <!-- javascript for bootstrap dropdowns etc -->
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+      integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+      integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>

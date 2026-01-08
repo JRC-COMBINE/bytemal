@@ -1,6 +1,9 @@
-source "http://rubygems.org"
+# frozen_string_literal: true
 
-gem 'github-pages'
-gem 'compass'
-gem 'sass-media_query_combiner'
-gem 'autoprefixer-rails', '8.6.5'
+source "https://rubygems.org"
+
+# gem "rails"
+gem "jekyll"
+gem "jekyll-seo-tag"
+gem "jekyll-sitemap"
+gem "github-pages", group: :jekyll_plugins

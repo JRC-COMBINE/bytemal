@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+
+<nav
+  class="navbar navbar-expand-lg navbar-light bg-light mb-4 sticky-top nav-fill"
+>
+  <button
+    class="navbar-toggler"
+    type="button"
+    data-toggle="collapse"
+    data-target="#navbarContent"
+    aria-controls="navbarContent"
+    aria-expanded="false"
+    aria-label="Toggle navigation"
+  >
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <a class="navbar-brand" href="/.">Home</a>
+
+  <div class="collapse navbar-collapse" id="navbarContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item">
+        <a class="nav-link" href="{{site.baseurl}}/about">About</a>
+      </li>
+
+      <li class="nav-item dropdown">
+        <a
+          class="nav-link dropdown-toggle"
+          href="#"
+          id="navbarDropdownProgram"
+          role="button"
+          data-toggle="dropdown"
+          aria-haspopup="true"
+          aria-expanded="false"
+        >
+          Program
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdownProgram">
+          <a class="dropdown-item" href="{{site.baseurl}}/program">Schedule</a>
+          <a class="dropdown-item" href="{{site.baseurl}}/keynotes">Keynotes</a>
+        </div>
+      </li>
+
+      <li class="nav-item">
+        <a class="nav-link" href="{{site.baseurl}}/venue">Venue</a>
+      </li>
+
+      <li class="nav-item">
+        <a class="nav-link" href="{{site.baseurl}}/register">Register</a>
+      </li>
+
+      <li class="nav-item dropdown">
+        <a
+          class="nav-link dropdown-toggle"
+          href="#"
+          id="navbarDropdownRegister"
+          role="button"
+          data-toggle="dropdown"
+          aria-haspopup="true"
+          aria-expanded="false"
+        >
+          Submit
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdownRegister">
+          <a class="dropdown-item" href="{{site.baseurl}}/submit"
+            >Submit Abstract</a
+          >
+          <a class="dropdown-item" href="{{site.baseurl}}/submission-guidelines"
+            >Submission guidelines</a
+          >
+        </div>
+      </li>
+    </ul>
+  </div>
+</nav>
