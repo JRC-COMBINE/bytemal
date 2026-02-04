@@ -1,8 +1,12 @@
 
 html { overflow-y: scroll; }
+:root {
+    --main-color:#006265;
+    --highlight-color: #cece0aff;
+}
 
-/* h2 { color: #0088cc } */
-h1, h2, h3, h4 { color: #133346; }
+h1, h2 { color: var(--main-color)}
+/*  h2, h3, h4 */
 
 /* keynote horizontal card pics */
 .card-img{
@@ -111,6 +115,11 @@ td{ padding: 10px; }
 .prev:hover, .next:hover {
   background-color: rgba(0,0,0,0.8);
 }
+a {
+  /* color: #26765c; */
+  color: #b1bf1f;
+  /* color: #d7d736;  */
+}
 
 /* Caption text */
 .text {
@@ -159,11 +168,34 @@ td{ padding: 10px; }
   to {opacity: 1}
 }
 
+
+
+.btn-primary {
+    background-color: var(--highlight-color);
+    border-color: var(--highlight-color);
+}
+.btn-dark {
+    background-color: var(--main-color);
+    border-color: var(--main-color);
+}
+
+.btn-primary:hover {
+  filter: brightness(88%);
+    background-color: var(--highlight-color);
+    border-color: var(--highlight-color);
+}
+.btn-dark:hover {
+  filter: brightness(88%);
+    background-color: var(--main-color);
+    border-color: var(--main-color);
+}
+
 ul.nav li.nav-item a.nav-general {
-        color: #0088cc !important;
+        color: var(--main-color) !important;
         font-size: 24px !important;
       }
 ul.nav li.nav-item a.nav-active {
-  color: #cece0aff !important;
+  color: var(--highlight-color) !important;
   font-size: 24px !important;
 }
+

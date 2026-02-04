@@ -4,10 +4,9 @@ permalink: /program
 layout:    default
 ---
 
-
 <div class="row">
-  <div class="col-sm-12 px-3" style="text-align: justify">
-  <h2><b>byteMAL 2026 schedule</b></h2>
+<div class="col-sm-12 px-3" style="text-align: justify">
+  <h2><b>Schedule for byteMAL 2026</b></h2>
   The full schedule will be published in time.
   <p><b>Date:</b> Friday <b>April 17th 2026</b>
   <br>  
@@ -22,6 +21,7 @@ layout:    default
 | :-----------: | :---------: |
 | 09:30 | Arrival and registration |
 | 10:30 | Program |
+|       | Lunch Break |
 | 16:45 | Closing |
 {:.table-bordered .table-hover .my-4}
 
