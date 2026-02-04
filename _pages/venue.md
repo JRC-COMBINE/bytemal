@@ -16,7 +16,7 @@ carousels:
 ---
 
 <div class="row">
-  <div class="col-sm-12   px-3">
+  <div class="col-sm-12 px-3">
     <div class="jumbotron p-5" style="text-align:left; font-size:18px">
       <h2><b>The byteMAL venue</b></h2>
       <p> This year's conference will be held at RWTH Aachen:      

@@ -5,16 +5,12 @@ layout: default
 variables:
   -link: &compbio "https://www.ukaachen.de/kliniken-institute/joint-research-center-for-computational-biomedicine/lehre/institute-for-computational-biomedicine/"
   -link: &disease "https://www.ukaachen.de/kliniken-institute/joint-research-center-for-computational-biomedicine/lehre/institute-for-computational-biomedicine-and-disease-modelling-with-focus-on-phase-transitions-between-phenotypes/"
-  -link: $micro "https://www.iamb.rwth-aachen.de/cms/iamb/das-institut/team/gruppe-blank/postdoc/~bhhocr/karan-kumar/?allou=1&lidx=1"
+  -link: &micro "https://www.iamb.rwth-aachen.de/cms/iamb/das-institut/team/gruppe-blank/postdoc/~bhhocr/karan-kumar/?allou=1&lidx=1"
 organizers:  
   - name: "Jonas Kupschus"
     affiliation: "Computational Biomedicine"
     affiliation_link: *compbio 
     image: "default.png"
-  - name: "Jonas Wolber"
-    affiliation: "Computational Biomedicine"
-    image: "default.png"
-    affiliation_link: *compbio 
   - name: "Marc-Daniel Hagel"
     affiliation: "Computational Biomedicine"
     image: "mahagel.jpg"
@@ -49,8 +45,7 @@ organizers:
 
   <br>
   <p style="text-align: justify">
-    <h2><b>Local Organizing Committee</b></h2>
-    <h3><b>Preliminary List</b></h3>
+    <h2><b>Local Organizing Committee</b></h2>    
     
     <div class="row">
   {% for item in page.organizers %}

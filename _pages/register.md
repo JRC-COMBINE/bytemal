@@ -5,14 +5,19 @@ layout:    default
 ---
 
 <div class="row">
+  <div class="jumbotron p-5 text-left col-sm-12">
+    <h2><b>Registration</b></h2>
+    <p style = "font-size: 18px">The registration will open soon.</p>
+  </div>
+</div>
+
+<!-- <div class="row">
   <div class="jumbotron p-5" style="text-align: left">
     <h2><b>Registration</b></h2>
     <p style = "font-size: 18px">Please click on the button below to <b>register for byteMAL 2025</b>. In case you would like to cancel your registration, please let us know via email: <a href = "mailto:byteMALevents@gmail.com">byteMALevents@gmail.com</a></p>
-    <!-- <p style = "font-size: 20px"><i>Please note that the registration deadline has passed!</i></p> -->
-    <!-- <a class="btn btn-primary btn-lg my-3" href="{{site.baseurl}}/RegistrationError" target="_blank" role="button">Register here</a> -->
 	<a class="btn btn-primary btn-lg my-3" href="https://rwth-aachen.sciebo.de/apps/forms/s/YEZzF6JdboAoGKwBNoer9Fec" target="_blank" role="button">Register here</a>
   </div>
-</div>
+</div> -->
 
 <div class="row">
   <div class="col-sm-12 px-3">
@@ -22,39 +27,48 @@ layout:    default
   </div>
 </div>
 
-<br>
-
-<div class="row">
-	  <div class="col-sm-4 px-3">
-	  <div class="jumbotron p-5 bg-info text-white h-100" style="text-align: left">
-		  <p style="font-size: 30px"><b>Abstract guidelines</b></p>
-		  <p style="font-size: 18px">
-			  - Include title, authors, and abstract <br>
-			  - Max. 300 words (excl. title, authors, and references)
-		  </p>
-	  </div>
-  </div>
-
-
-  <div class="col-sm-4 px-3">
-	  <div class="jumbotron p-5 bg-dark text-white h-100" style="text-align: left">
-		  <p style="font-size: 30px"><b>Poster guidelines</b></p>
-		  <p style="font-size: 18px">
-		  - Portrait format <br>
-		  - A0 size (or similar)
-	  </p> <br>
-	  </div>
+<br/>
+<h2><b>Guidelines</b></h2>
+<br/>
+<div class="card-deck text-left text-white">
+  <div class="card bg-main">
+    <div class="card-body">
+      <h3 class="card-title"><b>Abstracts</b></h3>
+      <div class="card-text">
+        <ul class="p-3">
+          <li>Include title, authors, and abstract</li>
+		  <li>Max. 300 words (excl. title, authors, and references)</li>
+		</ul>
+      </div>
+    </div>
   </div>
   
-  <div class="col-sm-4 px-3">
-	  <div class="jumbotron p-5 bg-primary text-white h-100" style="text-align: left">
-		  <p style="font-size: 30px"><b>Presentation guidelines</b></p>
-		  <p style="font-size: 18px">
-			  - 12 minute presentation <br>
-			  - 3 minutes Q&A
-		  </p>
-	  </div>
+  <div class="card bg-main">
+    <div class="card-body">
+      <h3 class="card-title"><b>Posters</b></h3>
+      <div class="card-text">
+        <ul class="p-3">
+          <li>Portrait format</li>
+		  <li>A0 size (or similar)</li>
+		</ul>
+      </div>
+    </div>
+  </div>
+
+<div class="card bg-main">
+    <div class="card-body">
+      <h3 class="card-title"><b>Presentations</b></h3>
+      <div class="card-text">
+        <ul class="p-3">
+          <li>12 minute presentation</li>
+    	  <li>3 minutes Q&A</li>
+		</ul>
+      </div>
+    </div>
+  </div>
 </div>
+
+
 
 <!-- href="https://docs.google.com/forms/d/e/1FAIpQLSd-s96MgwVAvE0VqYHz958qzQOD2KQKyeWYGk1AoKYIlsd8-g/viewform?usp=sf_link"  -->
 <!-- href="{{site.baseurl}}/RegistrationError" -->

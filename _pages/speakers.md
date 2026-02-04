@@ -3,28 +3,31 @@ title:     ByteMAL 2026 Keynotes
 permalink: /speakers
 layout:    default
 speakers:
-  - name: "Speaker 1"
-    subtitle: "Subtitle"    
-    link: "link"
-    link_text: "Institute For Something"
-    image: "A.png"
-    bio: Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
-  - name: "Speaker 2"
-    subtitle: "Subtitle"    
-    link: "link"
-    link_text: "Institute For Something"
-    image: "A.png"
-    bio: Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
-  - name: "Speaker 2"
-    subtitle: "Subtitle"    
-    link: "link"
-    link_text: "Institute For Something"
-    image: "A.png"
-    bio: Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+  - name: "Stefan Janssen"
+    link: 
+    link_text: 
+    image: 
+    bio: 
+  - name: "Christian Lieven"
+    subtitle: "Industry Speaker"    
+    link: 
+    link_text: 
+    image: 
+    bio: 
+  - name: "Jeyashree Krishnan"
+    subtitle: "Alumna Speaker"    
+    link: "https://www.jeyashreekrishnan.com/"
+    link_text: "Website"
+    image: 
+  - name: "TBA"
+    subtitle: 
+    link: 
+    link_text: 
+    image: 
 nonspeakers:  
   - name: "Dr. Maximilian von Datenrausch"
     subtitle: "Self-Proclaimed Chief Quantum Snack Analyst"    
-    link: "link"
+    link: 
     link_text: "Totally not a Lab"
     image: "A.png"
     bio: Dr. Maximilian von Datenrausch is absolutely not a real scientist, despite his impressive-sounding title. His “research” focuses on understanding why computer simulations always run perfectly until someone is watching. He famously developed the groundbreaking <em>Snack-Driven Workflow Optimization Theory</em>, which proposes that scientific productivity increases by 73% when cookies are within arm’s reach. <br><br> Dr. von Datenrausch claims to have completed a “transdimensional internship” at the Institute for Hypothetical Excellence (a place that does not exist), where he allegedly worked on quantum banana probabilistics — a field he invented to justify buying a very expensive calculator.<br><br> His work is entirely fictional, but he remains committed to collaborating with real researchers by providing emotional support, unsolicited advice, and an unlimited supply of memes.
@@ -48,17 +51,27 @@ nonspeakers:
 {% for item in page.speakers %}
 <div class="card mb-3" style="max-width: 960px;">
   <div class="row no-gutters">
-    <div class="col-md-4 d-flex align-items-center">
-      <img src="{{site.baseurl}}/images/Speakers/{{item.image}}" class="card-img rounded-lg" alt="Speaker 1">
+    <div class="col-md-4 d-flex align-items-center">    
+      {% if item.image %}
+      <img src="{{site.baseurl}}/images/Speakers/{{item.image}}" class="card-img rounded-lg" alt="Speaker Image">
+      {% else %}
+      <img src="{{site.baseurl}}/images/Speakers/default_speaker_picture.png" class="card-img rounded-lg" alt="Speaker Image">
+      {% endif %}
     </div>
     <div class="col-md-8">
       <div class="card-body">
         <h5 class="card-title">{{item.name}}</h5>
-        <p class="card-text font-weight-bold">{{item.subtitle}}</p>
+        {% if item.subtitle %}
+          <p class="card-text font-weight-bold">{{item.subtitle}}</p>
+        {% endif %}
+
         <p class="card-text">{{item.bio}}</p>
-        <button type="button" class="btn btn-outline-primary btn-sm">
-          <a href="{{item.link}}">{{item.link_text}}</a>
+
+        {%if item.link %}
+        <button type="button" class="btn bg-main">
+          <a class="text-white" href="{{item.link}}">{{item.link_text}}</a>
         </button>
+        {% endif %}
       </div>
     </div>
   </div>
