@@ -29,7 +29,7 @@ carousels:
       </p>
       <hr>
       <div class="text-center">
-      <img src="{{sites.abseurl}}/images/location/SuperC_RWTH_Aachen_-_26.03.2017.jpg" class="mx-auto w-75 "/>
+      <img src="{{site.baseurl}}/images/location/SuperC_RWTH_Aachen_-_26.03.2017.jpg" class="mx-auto w-75 "/>
 
       <p class="text-muted small">
       Von <a href="//commons.wikimedia.org/w/index.php?title=User:Nima_j72&amp;action=edit&amp;redlink=1" class="new" title="User:Nima j72 (page does not exist)">Nima j72</a> - <span class="int-own-work" lang="de">Eigenes Werk</span>, <a href="https://creativecommons.org/licenses/by-sa/4.0" title="Creative Commons Attribution-Share Alike 4.0">CC BY-SA 4.0</a>, <a href="https://commons.wikimedia.org/w/index.php?curid=57406406">Link</a>
