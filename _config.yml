@@ -2,7 +2,7 @@ markdown: kramdown
 title: "byteMAL 2026"
 include: ["_pages"]
 url: "https://jrc-combine.github.io/bytemal/"
-baseurl: "/bytemal-2026"
+baseurl: "/"
 
 plugins:
   - jekyll-seo-tag
