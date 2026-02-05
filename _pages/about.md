@@ -1,5 +1,5 @@
 ---
-title: "About ByteMAL"
+title: "About byteMAL"
 permalink: /about
 layout: default
 variables:
@@ -38,9 +38,9 @@ organizers:
 
   <div class="col-sm-12 px-3" style="text-align: justify">
   <h2><b>About byteMAL</b></h2>
-  <p><strong>ByteMAL</strong> is a conference created by and for early-career researchers in the fields of bioinformatics and systems biomedicine, 
+  <p><strong>byteMAL</strong> is a conference created by and for early-career researchers in the fields of bioinformatics and systems biomedicine, 
   and aims to provide a networking platform for knowledge and expertise exchange across borders. All are welcome to <a href="{{site.baseurl}}/register">attend and present</a> at byteMAL, but especially PhD candidates, post-docs, and students (master’s and bachelor’s).</p>
-  <p>We aim to vitalize communication amongst researchers from the Netherlands, Belgium, and Germany. ByteMAL has been hosted alternately by the Universities of Maastricht, Aachen, and Liège. </p>
+  <p>We aim to vitalize communication amongst researchers from the Netherlands, Belgium, and Germany. byteMAL has been hosted alternately by the Universities of Maastricht, Aachen, and Liège. </p>
   <p>As researchers in related fields in neighboring regions we are excited to widen our perspectives by creating the opportunity to discuss methods, tools, challenges and successes with people of similar mindset. Participants will have the opportunity to be inspired by our interesting <a href="{{site.baseurl}}/speakers">keynote speakers</a>, present their own work, and discuss ideas, tools and approaches with each other.</p>
 
   <br>

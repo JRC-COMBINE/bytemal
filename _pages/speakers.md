@@ -1,5 +1,5 @@
 ---
-title:     ByteMAL 2026 Keynotes
+title:     byteMAL 2026 Keynotes
 permalink: /speakers
 layout:    default
 speakers:

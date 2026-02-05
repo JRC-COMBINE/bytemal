@@ -1,5 +1,5 @@
 ---
-title:     ByteMAL 2025 Call for Abstracts
+title:     byteMAL 2025 Call for Abstracts
 permalink: /submit
 layout:    default
 ---

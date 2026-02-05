@@ -1,5 +1,5 @@
 ---
-title:     ByteMAL 2026 Program
+title:     byteMAL 2026 Program
 permalink: /program
 layout:    default
 ---
