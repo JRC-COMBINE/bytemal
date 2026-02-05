@@ -31,7 +31,7 @@ layout:    default
 <h2><b>Guidelines</b></h2>
 <br/>
 <div class="card-deck text-left text-white">
-  <div class="card bg-main">
+  <div class="card p-2 bg-main">
     <div class="card-body">
       <h3 class="card-title"><b>Abstracts</b></h3>
       <div class="card-text">
@@ -43,7 +43,7 @@ layout:    default
     </div>
   </div>
   
-  <div class="card bg-main">
+  <div class="card p-2 bg-main">
     <div class="card-body">
       <h3 class="card-title"><b>Posters</b></h3>
       <div class="card-text">
@@ -55,7 +55,7 @@ layout:    default
     </div>
   </div>
 
-<div class="card bg-main">
+<div class="card p-2 bg-main">
     <div class="card-body">
       <h3 class="card-title"><b>Presentations</b></h3>
       <div class="card-text">

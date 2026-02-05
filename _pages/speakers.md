@@ -9,13 +9,13 @@ speakers:
     image: 
     bio: 
   - name: "Christian Lieven"
-    subtitle: "Industry Speaker"    
+    subtitle: "Industry"
     link: 
     link_text: 
     image: 
     bio: 
   - name: "Jeyashree Krishnan"
-    subtitle: "Alumna Speaker"    
+    subtitle: "Alumna"
     link: "https://www.jeyashreekrishnan.com/"
     link_text: "Website"
     image: 
@@ -51,7 +51,7 @@ nonspeakers:
 {% for item in page.speakers %}
 <div class="card mb-3" style="max-width: 960px;">
   <div class="row no-gutters">
-    <div class="col-md-4 d-flex align-items-center">    
+    <div class="col-md-4 d-flex align-items-center p-3">
       {% if item.image %}
       <img src="{{site.baseurl}}/images/Speakers/{{item.image}}" class="card-img rounded-lg" alt="Speaker Image">
       {% else %}

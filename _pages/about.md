@@ -82,9 +82,4 @@ organizers:
   
 </div>
 
-  </div>
-
-
-
-
-
+</div>
