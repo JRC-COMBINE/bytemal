@@ -4,12 +4,13 @@ permalink: /speakers
 layout:    default
 speakers:
   - name: "Stefan Janssen"
-    link: 
-    link_text: 
-    image: 
-    bio: 
+    subtitle: Professor of Algorithmic Bioinformatics at Justus Liebig University Giessen 
+    link: https://www.uni-giessen.de/de/fbz/fb08/Inst/algorithm-bioinformatik
+    link_text: Stefan Janssen's Website
+    image: stefan-janssen.jpg
+    bio: Stefan Janssen is an expert in the development of algorithms for biological data analysis, with a primary focus on microbiome research. Since August 2019, he has served as a Professor for Algorithmic Bioinformatics at Justus Liebig University Giessen (JLU), where he leads the "JLab" research group. His research employs systems biology and machine learning to investigate the rich interplay between the microbiome and its host organisms. Dr. Janssen's group focuses on the development of tools to process and analyze terabyte-scale microbiome datasets, as well as algorithm design for sequential data based on dynamic programming. Previously, he worked as a postdoctoral fellow in Rob Knight’s lab at the University of California San Diego (UCSD), Arndt Borkhardt’s Lab at University Hospital Düsseldorf (UKD), and Alice McHardy’s group at the German Center for Infection Research (DZIF). 
   - name: "Christian Lieven"
-    subtitle: "Industry"
+    subtitle: 
     link: 
     link_text: 
     image: 
