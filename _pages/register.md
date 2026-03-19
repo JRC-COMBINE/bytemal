@@ -1,12 +1,12 @@
 ---
-title:     byteMAL 2025 Registration
+title:     byteMAL 2026 Registration
 permalink: /register
 layout:    default
 ---
 <div class="row">
   <div class="jumbotron p-5" style="text-align: left">
     <h2><b>Registration</b></h2>
-    <p style = "font-size: 18px">Please click on the button below to <b>register for byteMAL 2025</b>. In case you would like to cancel your registration, please let us know via email: <a href = "mailto:byteMALevents@gmail.com">byteMALevents@gmail.com</a></p>
+    <p style = "font-size: 18px">Please click on the button below to <b>register for byteMAL 2026</b>. In case you would like to cancel your registration, please let us know via email: <a href = "mailto:bytemal2026@rwth-aachen.de">bytemal2026@rwth-aachen.de</a></p>
 	<a class="btn btn-primary btn-lg my-3" href="https://rwth-aachen.sciebo.de/apps/forms/s/YEZzF6JdboAoGKwBNoer9Fec" target="_blank" role="button">Register here</a>
   </div>
 </div>
