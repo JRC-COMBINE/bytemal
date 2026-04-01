@@ -77,7 +77,7 @@ organizers:
   <br>
   <p style="text-align: justify">
     <h2><b>Contact</b></h2>
-    If you have any questions, feel free to contact us via e-mail: <a href = "mailto:byteMALevents@gmail.com">byteMALevents@gmail.com</a>. You can also check our <a href="https://bytemal.github.io/">main website</a> for general information and links to previous editions of the conference.
+    If you have any questions, feel free to contact us via e-mail: <a href = "mailto:bytemal2026@rwth-aachen.de">bytemal2026@rwth-aachen.de</a>. You can also check our <a href="https://bytemal.github.io/">main website</a> for general information and links to previous editions of the conference.
   </p>
   
 </div>

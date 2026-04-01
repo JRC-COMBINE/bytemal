@@ -7,5 +7,5 @@ https://bytemal.github.io
 
 ## Execute jekyll server
 ```
-bundle exec jekyll serve --livereload --baseurl ""
+bundle exec jekyll serve --livereload --baseurl=""
 ```

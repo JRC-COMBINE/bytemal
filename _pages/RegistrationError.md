@@ -13,7 +13,7 @@ sitemap: false
   <div class="col-sm-12 px-3">
 	  <div class="jumbotron p-5" style="text-align:left; font-size:18px">
 		  <h2><b>Oops...registration is not possible now!</b></h2>
-		  <p> Please send an email to <a href = "mailto:byteMALevents@gmail.com">byteMALevents@gmail.com</a> if you have a question about this.
+		  <p> Please send an email to <a href = "mailto:bytemal2026@rwth-aachen.de">bytemal2026@rwth-aachen.de</a> if you have a question about this.
 	          </p>
 	  </div> -->
 	  
