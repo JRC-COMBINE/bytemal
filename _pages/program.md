@@ -22,6 +22,7 @@ layout:    default
   </thead>
   <tbody>
     <tr><td style="text-align:center">09:30</td><td>Registration</td></tr>
+    <tr><td style="text-align:center">10:00</td><td>Opening</td></tr>
     <tr><td style="text-align:center">10:30</td><td>Keynote Speaker <strong>Stefan Janssen</strong></td></tr>
     <tr><td style="text-align:center">11:30</td><td>Young Researcher Presentations</td></tr>
     <tr class="program-break"><td style="text-align:center">12:30</td><td>Lunch Break</td></tr>

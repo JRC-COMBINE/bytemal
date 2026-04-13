@@ -6,8 +6,8 @@ layout:    default
 <div class="row">
   <div class="jumbotron p-5" style="text-align: left">
     <h2><b>Registration</b></h2>
-    <p style = "font-size: 18px">Please click on the button below to <b>register for byteMAL 2026</b>. In case you would like to cancel your registration, please let us know via email: <a href = "mailto:bytemal2026@rwth-aachen.de">bytemal2026@rwth-aachen.de</a></p>
-	<a class="btn btn-primary btn-lg my-3" href="https://rwth-aachen.sciebo.de/apps/forms/s/YEZzF6JdboAoGKwBNoer9Fec" target="_blank" role="button">Register here</a>
+    <p style = "font-size: 18px"><b>Registration is now closed.</b> Thank you for your interest in byteMAL 2026. If you have any questions, please contact us via email: <a href = "mailto:bytemal2026@rwth-aachen.de">bytemal2026@rwth-aachen.de</a></p>
+    <a class="btn btn-secondary btn-lg my-3 disabled" href="#" role="button" aria-disabled="true">Registration closed</a>
   </div>
 </div>
 
